@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluetooth IDS Control</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .status-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .status-armed {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status-disarmed {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            min-width: 120px;
+        }
+        .btn-arm {
+            background: #28a745;
+            color: white;
+        }
+        .btn-disarm {
+            background: #dc3545;
+            color: white;
+        }
+        .controls {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>?? Bluetooth IDS Control</h1>
+        
+        <div class="status-card {{ 'status-armed' if status.armed else 'status-disarmed' }}">
+            <h2>System Status: {{ 'ARMED' if status.armed else 'DISARMED' }}</h2>
+            <p>Process: {{ 'Running' if status.running else 'Stopped' }}</p>
+            <p>Schedule: {{ 'Enabled' if config.schedule_enabled else 'Disabled' }}</p>
+        </div>
+        
+        <div class="controls">
+            <button class="btn btn-arm" onclick="armSystem()">? ARM SYSTEM</button>
+            <button class="btn btn-disarm" onclick="disarmSystem()">? DISARM SYSTEM</button>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="/schedule" style="margin: 0 15px; color: #007bff;">? Schedule</a>
+            <a href="/settings" style="margin: 0 15px; color: #007bff;">?? Settings</a>
+            <a href="/voice" style="margin: 0 15px; color: #007bff;">? Voice Calls</a>
+            <a href="javascript:location.reload()" style="margin: 0 15px; color: #007bff;">? Refresh</a>
+        </div>
+    </div>
+
+    <script>
+        function armSystem() {
+            fetch('/arm', {method: 'POST'})
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                    location.reload();
+                });
+        }
+        
+        function disarmSystem() {
+            fetch('/disarm', {method: 'POST'})
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                    location.reload();
+                });
+        }
+        
+        // Auto-refresh every 30 seconds
+        setTimeout(() => location.reload(), 30000);
+    </script>
+</body>
+</html>

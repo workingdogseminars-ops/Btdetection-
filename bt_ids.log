@@ -1,0 +1,139 @@
+2025-08-18 16:30:30,490 - INFO - Starting Bluetooth monitoring...
+2025-08-18 16:30:30,490 - INFO - Starting 120s baseline learning mode...
+2025-08-18 16:30:40,601 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:30:55,651 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:31:10,688 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:31:25,726 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:31:40,775 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:31:55,812 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:32:10,853 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:32:25,887 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:32:30,894 - INFO - Baseline devices saved
+2025-08-18 16:32:30,898 - INFO - Learning complete. 0 baseline devices saved
+2025-08-18 16:32:40,931 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:32:55,977 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:33:11,023 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-08-18 16:33:24,840 - INFO - Received shutdown signal...
+2025-08-18 16:33:24,840 - INFO - Shutting down Bluetooth IDS...
+2025-08-18 16:38:46,689 - INFO - Loaded 0 baseline devices
+2025-08-18 16:44:00,116 - INFO - Loaded 0 baseline devices
+2025-08-18 16:44:00,117 - INFO - Starting Bluetooth monitoring...
+2025-08-18 16:44:00,117 - INFO - Starting 120s baseline learning mode...
+2025-08-18 16:44:10,244 - ERROR - Monitoring loop error: 'ModernBluetoothIDS' object has no attribute 'log_event'
+2025-08-18 16:44:25,281 - ERROR - Monitoring loop error: 'ModernBluetoothIDS' object has no attribute 'log_event'
+2025-08-18 16:44:34,483 - INFO - Received shutdown signal...
+2025-08-18 16:44:34,483 - INFO - Shutting down Bluetooth IDS...
+2025-08-18 16:59:11,105 - INFO - Loaded 0 baseline devices
+2025-08-18 16:59:11,105 - INFO - Starting Bluetooth monitoring...
+2025-08-18 16:59:11,106 - INFO - Starting 120s baseline learning mode...
+2025-08-18 16:59:21,229 - INFO - New device: Unknown (6A:40:E6:84:84:68) - baseline
+2025-08-18 16:59:21,230 - INFO - New device: Unknown (3F:2A:F9:F6:E7:BE) - baseline
+2025-08-18 16:59:21,231 - INFO - New device: Unknown (7F:6C:9F:91:24:EE) - baseline
+2025-08-18 16:59:21,233 - INFO - New device: Unknown (76:E7:DC:1B:AD:56) - baseline
+2025-08-18 16:59:21,234 - INFO - New device: Unknown (00:80:E6:C3:BB:E7) - baseline
+2025-08-18 16:59:21,235 - INFO - New device: Unknown (27:AE:6E:7F:51:63) - baseline
+2025-08-18 16:59:21,235 - INFO - New device: Unknown (57:05:04:6F:18:32) - baseline
+2025-08-18 16:59:21,236 - INFO - New device: LE-Bose Flex SoundLink (50:69:1E:48:FA:20) - baseline
+2025-08-18 16:59:21,237 - INFO - New device: Unknown (30:24:A9:1A:AA:49) - baseline
+2025-08-18 16:59:21,237 - INFO - New device: Unknown (C1:CB:E3:9B:1C:5B) - baseline
+2025-08-18 16:59:21,238 - INFO - New device: Unknown (CC:C2:28:EA:0D:A5) - baseline
+2025-08-18 16:59:21,239 - INFO - New device: Unknown (C5:80:9C:B3:F6:2E) - baseline
+2025-08-18 16:59:21,240 - INFO - New device: Unknown (44:53:6B:7B:25:0E) - baseline
+2025-08-18 16:59:21,240 - INFO - New device: Unknown (F4:67:9F:F1:4C:D1) - baseline
+2025-08-18 16:59:21,241 - INFO - New device: Unknown (D5:B1:C5:D5:CA:6E) - baseline
+2025-08-18 16:59:21,242 - INFO - New device: Unknown (D5:D9:08:F5:01:C8) - baseline
+2025-08-18 16:59:21,242 - INFO - New device: BF405 (F2:13:EE:03:FC:04) - baseline
+2025-08-18 16:59:51,333 - INFO - New device: Unknown (C6:EA:46:EA:35:F5) - baseline
+2025-08-18 17:00:06,390 - INFO - New device: Unknown (1F:07:96:01:44:6C) - baseline
+2025-08-18 17:00:06,390 - INFO - New device: Unknown (C7:EB:DE:53:7A:96) - baseline
+2025-08-18 17:00:06,391 - INFO - New device: Unknown (C6:1E:FC:D0:B0:C8) - baseline
+2025-08-18 17:00:51,539 - INFO - New device: Unknown (54:B4:A9:E8:69:90) - baseline
+2025-08-18 17:01:06,589 - INFO - New device: Unknown (46:93:9D:50:3C:29) - baseline
+2025-08-18 17:01:11,600 - INFO - Baseline devices saved
+2025-08-18 17:01:11,600 - INFO - Learning complete. 20 baseline devices saved
+2025-08-18 17:01:21,640 - INFO - New device: Unknown (57:EE:4E:DC:4B:BE) - monitoring
+2025-08-18 17:01:36,692 - INFO - New device: Unknown (0E:CC:5B:30:80:E8) - monitoring
+2025-08-18 17:01:51,740 - INFO - New device: Unknown (4C:6D:4A:36:09:9F) - monitoring
+2025-08-18 17:02:51,923 - INFO - New device: Unknown (D5:D9:08:F5:01:C8) - monitoring
+2025-08-18 17:02:51,924 - INFO - New device: Unknown (F7:C8:49:D4:A7:D8) - monitoring
+2025-08-18 17:03:31,772 - INFO - Received shutdown signal...
+2025-08-18 17:03:31,773 - INFO - Shutting down Bluetooth IDS...
+2025-08-18 17:03:31,773 - INFO - Shutdown complete
+2025-08-18 17:10:54,060 - INFO - Loaded 20 baseline devices
+2025-08-18 17:10:54,062 - INFO - Starting Bluetooth monitoring...
+2025-08-18 17:11:04,173 - INFO - New device: Unknown (30:24:A9:1A:AA:49) - monitoring
+2025-08-18 17:11:04,174 - INFO - New device: Unknown (46:93:9D:50:3C:29) - monitoring
+2025-08-18 17:11:04,175 - INFO - New device: Unknown (40:C9:98:FB:AF:E9) - monitoring
+2025-08-18 17:11:04,176 - INFO - New device: Unknown (63:45:81:18:F6:2B) - monitoring
+2025-08-18 17:11:04,177 - INFO - New device: LE-Bose Flex SoundLink (50:69:1E:48:FA:20) - monitoring
+2025-08-18 17:11:04,178 - INFO - New device: Unknown (5A:08:09:20:57:64) - monitoring
+2025-08-18 17:11:04,179 - INFO - New device: Unknown (04:9E:01:7D:DF:9E) - monitoring
+2025-08-18 17:11:04,180 - INFO - New device: Unknown (3B:C6:C0:87:86:A5) - monitoring
+2025-08-18 17:11:04,181 - INFO - New device: Unknown (0E:CC:5B:30:80:E8) - monitoring
+2025-08-18 17:11:04,182 - INFO - New device: BF405 (F2:13:EE:03:FC:04) - monitoring
+2025-08-18 17:11:04,183 - INFO - New device: Unknown (F4:67:9F:F1:4C:D1) - monitoring
+2025-08-18 17:11:04,183 - INFO - New device: Unknown (C1:CB:E3:9B:1C:5B) - monitoring
+2025-08-18 17:11:04,184 - INFO - New device: Unknown (CC:C2:28:EA:0D:A5) - monitoring
+2025-08-18 17:11:04,185 - INFO - New device: Unknown (44:53:6B:7B:25:0E) - monitoring
+2025-08-18 17:11:04,185 - INFO - New device: Unknown (F7:C8:49:D4:A7:D8) - monitoring
+2025-08-18 17:11:19,221 - INFO - New device: Unknown (6B:60:27:2C:5B:3D) - monitoring
+2025-08-18 17:11:49,300 - INFO - New device: Unknown (03:BD:DF:88:23:41) - monitoring
+2025-08-18 17:11:49,301 - INFO - New device: Unknown (2B:37:2E:5A:A1:DF) - monitoring
+2025-08-18 17:11:49,302 - INFO - New device: LE-Bose Flex SoundLink (7E:1E:B2:48:BC:0C) - monitoring
+2025-08-18 17:12:19,372 - WARNING - ALARM WOULD TRIGGER: LE-Bose Flex SoundLink (7E:1E:B2:48:BC:0C)
+2025-08-18 17:12:34,415 - INFO - New device: Unknown (F7:C8:49:D4:A7:D8) - monitoring
+2025-08-18 17:12:49,453 - INFO - New device: Unknown (76:5E:36:4A:71:B6) - monitoring
+2025-08-18 17:13:04,495 - INFO - New device: Unknown (6B:60:27:2C:5B:3D) - monitoring
+2025-08-18 17:13:49,601 - INFO - New device: Unknown (57:EE:4E:DC:4B:BE) - monitoring
+2025-08-18 17:14:19,683 - INFO - New device: Unknown (C7:EB:DE:53:7A:96) - monitoring
+2025-08-18 17:14:34,723 - INFO - New device: Unknown (6B:60:27:2C:5B:3D) - monitoring
+2025-08-18 17:15:04,797 - INFO - New device: Unknown (F7:C8:49:D4:A7:D8) - monitoring
+2025-08-18 17:16:20,014 - INFO - New device: Unknown (D2:2C:5A:38:60:07) - monitoring
+2025-08-18 17:16:20,015 - INFO - New device: Unknown (6B:60:27:2C:5B:3D) - monitoring
+2025-08-18 17:16:30,455 - INFO - Received shutdown signal...
+2025-08-18 17:16:30,456 - INFO - Shutting down Bluetooth IDS...
+2025-08-18 17:16:30,456 - INFO - Shutdown complete
+2025-08-18 17:23:52,109 - INFO - Starting Bluetooth monitoring...
+2025-08-18 17:23:52,109 - INFO - Starting 120s baseline learning mode...
+2025-08-18 17:24:02,222 - INFO - New device: Unknown (40:C9:98:FB:AF:E9) - baseline
+2025-08-18 17:24:02,223 - INFO - New device: Unknown (3B:C6:C0:87:86:A5) - baseline
+2025-08-18 17:24:02,224 - INFO - New device: Unknown (63:45:81:18:F6:2B) - baseline
+2025-08-18 17:24:02,225 - INFO - New device: Unknown (05:5F:80:EE:BB:3F) - baseline
+2025-08-18 17:24:02,226 - INFO - New device: Unknown (53:D6:F9:BF:9F:ED) - baseline
+2025-08-18 17:24:02,227 - INFO - New device: Unknown (7A:76:C4:E4:45:81) - baseline
+2025-08-18 17:24:02,228 - INFO - New device: Unknown (30:24:A9:1A:AA:49) - baseline
+2025-08-18 17:24:02,229 - INFO - New device: Unknown (12:51:09:79:62:59) - baseline
+2025-08-18 17:24:02,230 - INFO - New device: Unknown (7B:A4:A5:AB:A4:6B) - baseline
+2025-08-18 17:24:02,230 - INFO - New device: Unknown (F4:67:9F:F1:4C:D1) - baseline
+2025-08-18 17:24:02,231 - INFO - New device: LE-Bose Flex SoundLink (7E:1E:B2:48:BC:0C) - baseline
+2025-08-18 17:24:02,232 - INFO - New device: Unknown (CC:C2:28:EA:0D:A5) - baseline
+2025-08-18 17:24:02,233 - INFO - New device: Unknown (C1:CB:E3:9B:1C:5B) - baseline
+2025-08-18 17:24:02,234 - INFO - New device: Unknown (6B:60:27:2C:5B:3D) - baseline
+2025-08-18 17:24:02,235 - INFO - New device: Unknown (DE:58:8A:83:5B:3D) - baseline
+2025-08-18 17:24:02,235 - INFO - New device: Unknown (D2:2C:5A:38:60:07) - baseline
+2025-08-18 17:24:17,281 - INFO - New device: BF405 (F2:13:EE:03:FC:04) - baseline
+2025-08-18 17:24:32,342 - INFO - New device: Unknown (EC:18:DE:38:F1:87) - baseline
+2025-08-18 17:24:47,399 - INFO - New device: Unknown (E8:BC:D4:05:E0:C9) - baseline
+2025-08-18 17:25:17,480 - INFO - New device: Unknown (05:B8:96:21:EA:E5) - baseline
+2025-08-18 17:25:32,527 - INFO - New device: Unknown (EC:18:DE:38:F1:87) - baseline
+2025-08-18 17:25:32,528 - INFO - New device: Unknown (E8:BC:D4:05:E0:C9) - baseline
+2025-08-18 17:25:52,574 - INFO - Baseline devices saved
+2025-08-18 17:25:52,575 - INFO - Learning complete. 18 baseline devices saved
+2025-08-18 17:26:02,611 - INFO - New device: Unknown (05:B8:96:21:EA:E5) - monitoring
+2025-08-18 17:26:17,655 - INFO - New device: Unknown (7C:13:84:CA:AA:6D) - monitoring
+2025-08-18 17:26:17,657 - INFO - New device: Unknown (EC:18:DE:38:F1:87) - monitoring
+2025-08-18 17:26:32,707 - INFO - New device: Unknown (67:6F:30:B1:7F:11) - monitoring
+2025-08-18 17:27:02,795 - INFO - New device: Unknown (C8:60:5D:80:D3:F3) - monitoring
+2025-08-18 17:27:32,880 - INFO - New device: Unknown (DE:58:8A:83:5B:3D) - monitoring
+2025-08-18 17:28:48,082 - INFO - New device: Unknown (DE:58:8A:83:5B:3D) - monitoring
+2025-08-18 17:28:48,083 - INFO - New device: Unknown (1F:1E:0F:D4:81:3D) - monitoring
+2025-08-18 17:28:48,084 - INFO - New device: Unknown (68:1D:3F:CE:69:71) - monitoring
+2025-08-18 17:28:48,084 - INFO - New device: Unknown (53:A1:50:57:9F:66) - monitoring
+2025-08-18 17:29:18,168 - INFO - New device: Unknown (04:EC:9E:2D:71:42) - monitoring
+2025-08-18 17:29:18,170 - INFO - New device: Unknown (EC:18:DE:38:F1:87) - monitoring
+2025-08-18 17:29:33,221 - INFO - New device: Unknown (50:BC:22:B5:CE:7A) - monitoring
+2025-08-18 17:29:33,222 - INFO - New device: Unknown (C8:60:5D:80:D3:F3) - monitoring
+2025-08-18 17:29:48,258 - INFO - New device: Unknown (DE:58:8A:83:5B:3D) - monitoring
+2025-08-18 17:29:59,082 - INFO - Received shutdown signal...
+2025-08-18 17:29:59,083 - INFO - Shutting down Bluetooth IDS...
+2025-08-18 17:29:59,083 - INFO - Shutdown complete

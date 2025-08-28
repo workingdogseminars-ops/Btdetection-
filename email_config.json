@@ -1,0 +1,23 @@
+{
+    "email_enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "workingdogseminars@gmail.com",
+    "sender_password": "lqfo vzoc mest eowy",
+    "recipient_email": "workingdogseminars@gmail.com",
+    "subject": "? SECURITY ALERT - Intrusion Detected",
+    "device_id": "BT-IDS-MASTER-001",
+    "voice_call_enabled": true,
+    "voice_phone_number": "0409991376",
+    "voice_message": "phone intrusion detected. Alarm island, alarm island",
+    "voice": {
+        "enabled": true,
+        "phone1": "0409991376",
+        "phone2": "",
+        "phone3": "",
+        "message": "phone intrusion detected. Phone intrusion phone intrusion",
+        "email1": "a.darr@hotmail.com",
+        "email2": "rebelandandrew2@gmail.com",
+        "email3": ""
+    }
+}

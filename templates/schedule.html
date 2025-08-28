@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Settings - Bluetooth IDS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .nav {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .nav a {
+            margin: 0 10px;
+            padding: 8px 16px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .nav a:hover {
+            background: #0056b3;
+        }
+        .status-card {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 4px solid #2196f3;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .schedule-enable {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .day-schedule {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background: #fafafa;
+        }
+        .day-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .time-inputs {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        input[type="time"] {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        .submit-btn {
+            background: #28a745;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            background: #218838;
+        }
+        .current-status {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .armed { background: #d4edda; color: #155724; }
+        .disarmed { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>? Schedule Settings</h1>
+            <p>Configure automatic ARM/DISARM schedule</p>
+        </div>
+
+        <div class="nav">
+            <a href="/">? Dashboard</a>
+            <a href="/schedule">? Schedule</a>
+            <a href="/settings">?? Settings</a>
+        </div>
+
+        <div class="current-status {% if config.armed %}armed{% else %}disarmed{% endif %}">
+            <strong>Current Status: {% if config.armed %}? ARMED{% else %}? DISARMED{% endif %}</strong>
+        </div>
+
+        <div class="status-card">
+            <h3>? Schedule Status</h3>
+            <p><strong>Schedule Enabled:</strong> {% if config.schedule_enabled %}? Yes{% else %}? No{% endif %}</p>
+            <p><strong>Current Time:</strong> <span id="current-time"></span></p>
+            <p><strong>Should be Armed Now:</strong> <span id="should-be-armed">Calculating...</span></p>
+        </div>
+
+        <form method="POST">
+            <div class="schedule-enable">
+                <label>
+                    <input type="checkbox" name="schedule_enabled" {% if config.schedule_enabled %}checked{% endif %}>
+                    <strong>Enable Automatic Scheduling</strong>
+                </label>
+                <p style="margin: 10px 0 0 25px; font-size: 14px; color: #666;">
+                    When enabled, the system will automatically ARM/DISARM based on the schedule below
+                </p>
+            </div>
+            {% for day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'] %}
+            <div class="day-schedule">
+                <div class="day-header">{{ day.title() }}</div>
+                <div class="time-inputs">
+                    <label>
+                        <input type="checkbox" name="{{ day }}_enabled" {% if config.schedule[day].enabled %}checked{% endif %}>
+                        Enable for this day
+                    </label>
+                    <label>
+                        Start (ARM):
+                        <input type="time" name="{{ day }}_start" value="{{ config.schedule[day].start }}">
+                    </label>
+                    <label>
+                        End (DISARM):
+                        <input type="time" name="{{ day }}_end" value="{{ config.schedule[day].end }}">
+                    </label>
+                </div>
+                <div style="margin-top: 8px; font-size: 12px; color: #666;">
+                    {% if config.schedule[day].enabled %}
+                        Armed from {{ config.schedule[day].start }} to {{ config.schedule[day].end }}
+                    {% else %}
+                        Disabled - manual control only
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+
+            <button type="submit" class="submit-btn">? Save Schedule</button>
+        </form>
+    </div>
+    <script>
+        function updateCurrentTime() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString();
+            const dayString = now.toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();
+            
+            document.getElementById('current-time').textContent = timeString;
+            
+            // Check if should be armed based on current schedule
+            const config = {{ config | tojson }};
+            const currentTime = now.getHours() * 60 + now.getMinutes();
+            const dayConfig = config.schedule[dayString];
+            
+            if (config.schedule_enabled && dayConfig.enabled) {
+                const startTime = timeToMinutes(dayConfig.start);
+                const endTime = timeToMinutes(dayConfig.end);
+                
+                let shouldBeArmed;
+                if (startTime > endTime) {
+                    // Overnight schedule (e.g., 18:00-06:00)
+                    shouldBeArmed = currentTime >= startTime || currentTime <= endTime;
+                } else {
+                    // Same day schedule (e.g., 09:00-17:00)
+                    shouldBeArmed = currentTime >= startTime && currentTime <= endTime;
+                }
+                
+                document.getElementById('should-be-armed').innerHTML = 
+                    shouldBeArmed ? '? <strong>YES</strong>' : '? <strong>NO</strong>';
+            } else {
+                document.getElementById('should-be-armed').innerHTML = '?? <strong>Manual Control</strong>';
+            }
+        }
+        
+        function timeToMinutes(timeStr) {
+            const [hours, minutes] = timeStr.split(':').map(Number);
+            return hours * 60 + minutes;
+        }
+        
+        // Update time every second
+        updateCurrentTime();
+        setInterval(updateCurrentTime, 1000);
+    </script>
+</body>
+</html>

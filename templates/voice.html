@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Call Settings - Bluetooth IDS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nav-links {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 500;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #555;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        input[type="text"]:focus, textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+        .phone-input {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .phone-input input {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .test-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            min-width: 80px;
+        }
+        .test-btn:hover {
+            background-color: #218838;
+        }
+        .test-btn:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        .submit-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+        .char-counter {
+            font-size: 12px;
+            color: #666;
+            text-align: right;
+            margin-top: 5px;
+        }
+        .info-box {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            padding: 15px;
+            border: 1px solid #bee5eb;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Call Settings</h1>
+        
+        <div class="nav-links">
+            <a href="/">Dashboard</a>
+            <a href="/schedule">Schedule</a>
+            <a href="/settings">Settings</a>
+            <a href="/voice">Voice Calls</a>
+        </div>
+
+        <div class="info-box">
+            <strong>Voice Call System:</strong> When an intrusion is detected, the system will call the configured phone numbers using ClickSend's voice service.
+        </div>
+
+        <form method="POST" action="/update_voice">
+            <div class="checkbox-group">
+                <input type="checkbox" id="voice_enabled" name="voice_enabled" 
+                       {{ 'checked' if voice_config.enabled else '' }}>
+                <label for="voice_enabled">Enable Voice Call Alerts</label>
+            </div>
+            <div class="form-group">
+                <label>Phone Numbers (Australian format: 0412345678)</label>
+                
+                <div class="phone-input">
+                    <input type="text" 
+                           name="phone1" 
+                           value="{{ voice_config.phone1 }}"
+                           placeholder="Phone Number 1"
+                           maxlength="20">
+                    <button type="button" class="test-btn" onclick="testVoiceCall(this, 1)">Test</button>
+                </div>
+                
+                <div class="phone-input">
+                    <input type="text" 
+                           name="phone2" 
+                           value="{{ voice_config.phone2 }}"
+                           placeholder="Phone Number 2 (optional)"
+                           maxlength="20">
+                    <button type="button" class="test-btn" onclick="testVoiceCall(this, 2)">Test</button>
+                </div>
+                
+                <div class="phone-input">
+                    <input type="text" 
+                           name="phone3" 
+                           value="{{ voice_config.phone3 }}"
+                           placeholder="Phone Number 3 (optional)"
+                           maxlength="20">
+                    <button type="button" class="test-btn" onclick="testVoiceCall(this, 3)">Test</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Voice Message (Maximum 60 characters)</label>
+                <textarea id="message" 
+                          name="message" 
+                          maxlength="60" 
+                          oninput="updateCharCounter()"
+                          placeholder="Enter the message to be spoken during voice calls">{{ voice_config.message }}</textarea>
+                <div class="char-counter" id="char-counter">0/60 characters</div>
+            </div>
+
+            <div class="form-group">
+                <label>Additional Email Notifications (optional)</label>
+                <input type="email" 
+                       name="email1" 
+                       value="{{ voice_config.email1 or '' }}"
+                       placeholder="Additional Email 1 (optional)"
+                       style="margin-bottom: 10px;">
+                <input type="email" 
+                       name="email2" 
+                       value="{{ voice_config.email2 or '' }}"
+                       placeholder="Additional Email 2 (optional)"
+                       style="margin-bottom: 10px;">
+                <input type="email" 
+                       name="email3" 
+                       value="{{ voice_config.email3 or '' }}"
+                       placeholder="Additional Email 3 (optional)">
+                <div class="help-text" style="margin-top: 5px;">
+                    These emails will receive alerts in addition to your main email address
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Save Voice Call Settings</button>
+        </form>
+    </div>
+    <script>
+        function updateCharCounter() {
+            const messageInput = document.getElementById('message');
+            const charCounter = document.getElementById('char-counter');
+            const currentLength = messageInput.value.length;
+            charCounter.textContent = `${currentLength}/60 characters`;
+            
+            if (currentLength > 50) {
+                charCounter.style.color = '#dc3545';
+            } else {
+                charCounter.style.color = '#666';
+            }
+        }
+
+        function testVoiceCall(button, phoneNumber) {
+            const phoneInput = button.previousElementSibling;
+            const phoneValue = phoneInput.value.trim();
+            
+            if (!phoneValue) {
+                alert('Please enter a phone number first');
+                return;
+            }
+            
+            // Disable button and show loading
+            button.disabled = true;
+            button.textContent = 'Sending...';
+            
+            fetch('/test_voice', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    phone: phoneValue
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Test call sent successfully! You should receive a call within 1-2 minutes.');
+                } else {
+                    alert('Error sending test call: ' + data.message);
+                }
+            })
+            .catch(error => {
+                alert('Error sending test call: ' + error.message);
+            })
+            .finally(() => {
+                // Re-enable button
+                button.disabled = false;
+                button.textContent = 'Test';
+            });
+        }
+
+        // Initialize character counter on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCharCounter();
+        });
+    </script>
+</body>
+</html>

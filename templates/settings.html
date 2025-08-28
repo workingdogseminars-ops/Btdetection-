@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Bluetooth IDS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .nav {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .nav a {
+            margin: 0 10px;
+            padding: 8px 16px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .nav a:hover {
+            background: #0056b3;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group small {
+            display: block;
+            margin-top: 5px;
+            color: #666;
+            font-size: 12px;
+        }
+        .submit-btn {
+            background: #28a745;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            background: #218838;
+        }
+        .info-card {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 4px solid #2196f3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>?? System Settings</h1>
+            <p>Configure detection parameters</p>
+        </div>
+
+        <div class="nav">
+            <a href="/">? Dashboard</a>
+            <a href="/schedule">? Schedule</a>
+            <a href="/settings">?? Settings</a>
+        </div>
+
+        <div class="info-card">
+            <h3>?? Current Settings</h3>
+            <p><strong>Trigger Threshold:</strong> {{ config.trigger_threshold }} seconds</p>
+            <p><strong>Scan Interval:</strong> {{ config.scan_interval }} seconds</p>
+        </div>
+
+        <form method="POST">
+            <div class="form-group">
+                <label for="trigger_threshold">?? Trigger Threshold (seconds)</label>
+                <input type="number" id="trigger_threshold" name="trigger_threshold" 
+                       value="{{ config.trigger_threshold }}" min="5" max="300" required>
+                <small>How long a device must be detected before triggering the alarm (5-300 seconds)</small>
+            </div>
+
+            <div class="form-group">
+                <label for="scan_interval">? Scan Interval (seconds)</label>
+                <input type="number" id="scan_interval" name="scan_interval" 
+                       value="{{ config.scan_interval }}" min="1" max="60" required>
+                <small>How often to scan for Bluetooth devices (1-60 seconds)</small>
+            </div>
+
+            <button type="submit" class="submit-btn">? Save Settings</button>
+        </form>
+
+        <div style="margin-top: 30px; padding: 15px; background: #fff3cd; border-radius: 5px; border-left: 4px solid #ffc107;">
+            <h4>?? Important Notes</h4>
+            <ul style="margin: 0; padding-left: 20px;">
+                <li><strong>Trigger Threshold:</strong> Lower values = faster response but more false alarms</li>
+                <li><strong>Scan Interval:</strong> Lower values = faster detection but more CPU usage</li>
+                <li>Changes will take effect after the next system restart</li>
+                <li>Recommended settings: 45 seconds trigger, 3 seconds scan</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

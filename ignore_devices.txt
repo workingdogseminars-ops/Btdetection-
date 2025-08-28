@@ -1,0 +1,4 @@
+# One MAC per line (case-insensitive). Add your Pi/router/4G modem here.
+# Examples:
+# B8:27:EB:AA:BB:CC
+# 12:34:56:78:9A:BC
