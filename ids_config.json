@@ -1,0 +1,43 @@
+{
+  "armed": false,
+  "schedule_enabled": false,
+  "schedule": {
+    "monday": {
+      "enabled": true,
+      "start": "18:00",
+      "end": "06:00"
+    },
+    "tuesday": {
+      "enabled": true,
+      "start": "18:00",
+      "end": "06:00"
+    },
+    "wednesday": {
+      "enabled": true,
+      "start": "18:00",
+      "end": "06:00"
+    },
+    "thursday": {
+      "enabled": true,
+      "start": "18:00",
+      "end": "06:00"
+    },
+    "friday": {
+      "enabled": true,
+      "start": "18:00",
+      "end": "06:00"
+    },
+    "saturday": {
+      "enabled": false,
+      "start": "18:00",
+      "end": "06:00"
+    },
+    "sunday": {
+      "enabled": false,
+      "start": "18:00",
+      "end": "06:00"
+    }
+  },
+  "trigger_threshold": 45,
+  "scan_interval": 3
+}

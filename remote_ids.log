@@ -2932,3 +2932,125 @@
 2025-08-29 07:13:41,265 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
 2025-08-29 07:13:41,266 - INFO - ? Additional emails completed: 2 emails sent
 2025-08-29 07:13:41,675 - INFO - Home base notified successfully
+2025-08-29 07:37:54,286 - INFO - Received shutdown signal...
+2025-08-29 07:37:54,286 - INFO - ? Shutting down Remote Site IDS...
+2025-08-29 07:37:54,287 - INFO - Alarm stopped
+2025-08-29 07:37:54,288 - INFO - Shutdown complete
+2025-08-29 08:01:58,066 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-08-29 08:01:58,069 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-08-29 08:01:58,073 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-08-29 08:01:58,073 - INFO - GPIO setup complete - Pin 18 ready
+2025-08-29 08:01:58,074 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-08-29 08:01:58,074 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-08-29 08:01:58,074 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-08-29 08:02:03,164 - INFO - ? FIRST DETECTION: 14 device(s) found
+2025-08-29 08:02:03,167 - INFO -    Device: Unknown (5B:9D:55:A4:CE:58) - -73dBm
+2025-08-29 08:02:03,168 - INFO -    Device: Unknown (3A:2D:91:F7:9C:28) - -70dBm
+2025-08-29 08:02:03,168 - INFO -    Device: Unknown (6B:F6:68:D0:34:45) - -73dBm
+2025-08-29 08:02:03,169 - INFO -    Device: Unknown (17:2A:E0:9B:DF:C5) - -73dBm
+2025-08-29 08:02:03,169 - INFO -    Device: Unknown (F7:8D:53:8E:9D:6E) - -78dBm
+2025-08-29 08:02:03,169 - INFO -    Device: Unknown (7F:D4:C8:D6:6A:F9) - -87dBm
+2025-08-29 08:02:03,170 - INFO -    Device: LE-Bose Flex SoundLink (49:DB:54:41:FA:18) - -46dBm
+2025-08-29 08:02:03,171 - INFO -    Device: Unknown (2D:AB:13:FF:E1:90) - -75dBm
+2025-08-29 08:02:03,172 - INFO -    Device: Unknown (6A:6C:4C:C1:86:0A) - -69dBm
+2025-08-29 08:02:03,172 - INFO -    Device: BF405 (F2:13:EE:03:FC:04) - -79dBm
+2025-08-29 08:02:03,172 - INFO -    Device: Unknown (D7:E2:1F:AD:C7:87) - -86dBm
+2025-08-29 08:02:03,173 - INFO -    Device: Unknown (D2:45:45:AA:7E:4D) - -68dBm
+2025-08-29 08:02:03,173 - INFO -    Device: Unknown (7B:70:E4:7E:0C:CE) - -96dBm
+2025-08-29 08:02:03,173 - INFO -    Device: Unknown (E9:0A:D1:75:48:2C) - -84dBm
+2025-08-29 08:02:03,174 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-08-29 08:02:11,220 - INFO - ??  Devices present for 8.1s (trigger at 45s)
+2025-08-29 08:02:19,257 - INFO - ??  Devices present for 16.1s (trigger at 45s)
+2025-08-29 08:02:27,290 - INFO - ??  Devices present for 24.1s (trigger at 45s)
+2025-08-29 08:02:35,327 - INFO - ??  Devices present for 32.2s (trigger at 45s)
+2025-08-29 08:02:43,360 - INFO - ??  Devices present for 40.2s (trigger at 45s)
+2025-08-29 08:02:51,398 - INFO - ??  Devices present for 48.2s (trigger at 45s)
+2025-08-29 08:02:51,399 - WARNING - ? ALARM TRIGGERED! 13 device(s) detected for 45+ seconds
+2025-08-29 08:02:51,459 - ERROR - ? Email failed: [Errno 2] No such file or directory: '/home/andrewdarr/intrusion/email_config.json'
+2025-08-29 08:02:51,460 - ERROR - ? Voice alert system failed: [Errno 2] No such file or directory: '/home/andrewdarr/intrusion/email_config.json'
+2025-08-29 08:02:51,856 - INFO - Home base notified successfully
+2025-08-29 08:06:25,013 - INFO - Received shutdown signal...
+2025-08-29 08:06:25,014 - INFO - ? Shutting down Remote Site IDS...
+2025-08-29 08:06:25,015 - INFO - Alarm stopped
+2025-08-29 08:06:25,016 - INFO - Shutdown complete
+2025-08-29 08:08:43,544 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-08-29 08:08:43,548 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-08-29 08:08:43,552 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-08-29 08:08:43,552 - INFO - GPIO setup complete - Pin 18 ready
+2025-08-29 08:08:43,553 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-08-29 08:08:43,553 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-08-29 08:08:43,553 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-08-29 08:08:48,653 - INFO - ? FIRST DETECTION: 16 device(s) found
+2025-08-29 08:08:48,659 - INFO -    Device: Unknown (5B:9D:55:A4:CE:58) - -73dBm
+2025-08-29 08:08:48,660 - INFO -    Device: Unknown (17:2A:E0:9B:DF:C5) - -78dBm
+2025-08-29 08:08:48,660 - INFO -    Device: Unknown (6B:F6:68:D0:34:45) - -74dBm
+2025-08-29 08:08:48,660 - INFO -    Device: LE-Bose Flex SoundLink (49:DB:54:41:FA:18) - -52dBm
+2025-08-29 08:08:48,661 - INFO -    Device: Unknown (6A:6C:4C:C1:86:0A) - -65dBm
+2025-08-29 08:08:48,661 - INFO -    Device: Unknown (00:6D:D0:2A:36:DB) - -70dBm
+2025-08-29 08:08:48,661 - INFO -    Device: Unknown (3F:A8:97:1D:F8:A5) - -80dBm
+2025-08-29 08:08:48,661 - INFO -    Device: Unknown (E9:0A:D1:75:48:2C) - -89dBm
+2025-08-29 08:08:48,662 - INFO -    Device: BF405 (F2:13:EE:03:FC:04) - -79dBm
+2025-08-29 08:08:48,662 - INFO -    Device: Unknown (D2:45:45:AA:7E:4D) - -74dBm
+2025-08-29 08:08:48,662 - INFO -    Device: Unknown (F7:8D:53:8E:9D:6E) - -78dBm
+2025-08-29 08:08:48,662 - INFO -    Device: Unknown (D7:E2:1F:AD:C7:87) - -85dBm
+2025-08-29 08:08:48,663 - INFO -    Device: Unknown (7F:D4:C8:D6:6A:F9) - -91dBm
+2025-08-29 08:08:48,663 - INFO -    Device: Unknown (0C:B1:98:19:EC:AF) - -75dBm
+2025-08-29 08:08:48,663 - INFO -    Device: Unknown (52:27:76:22:0A:B1) - -75dBm
+2025-08-29 08:08:48,663 - INFO -    Device: Unknown (63:BB:03:E4:7C:B2) - -75dBm
+2025-08-29 08:08:48,664 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-08-29 08:08:56,700 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-08-29 08:09:04,744 - INFO - ??  Devices present for 16.1s (trigger at 45s)
+2025-08-29 08:09:12,775 - INFO - ??  Devices present for 24.1s (trigger at 45s)
+2025-08-29 08:09:20,803 - INFO - ??  Devices present for 32.1s (trigger at 45s)
+2025-08-29 08:09:28,841 - INFO - ??  Devices present for 40.2s (trigger at 45s)
+2025-08-29 08:09:36,885 - INFO - ??  Devices present for 48.2s (trigger at 45s)
+2025-08-29 08:09:36,885 - WARNING - ? ALARM TRIGGERED! 16 device(s) detected for 45+ seconds
+2025-08-29 08:09:36,941 - ERROR - ? Email failed: [Errno 2] No such file or directory: '/home/andrewdarr/intrusion/email_config.json'
+2025-08-29 08:09:36,941 - ERROR - ? Voice alert system failed: [Errno 2] No such file or directory: '/home/andrewdarr/intrusion/email_config.json'
+2025-08-29 08:09:37,405 - INFO - Home base notified successfully
+2025-08-29 08:13:27,764 - INFO - Received shutdown signal...
+2025-08-29 08:13:27,765 - INFO - ? Shutting down Remote Site IDS...
+2025-08-29 08:13:27,765 - INFO - Alarm stopped
+2025-08-29 08:13:27,765 - INFO - Shutdown complete
+2025-08-29 08:13:40,622 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-08-29 08:13:40,624 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-08-29 08:13:40,628 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-08-29 08:13:40,629 - INFO - GPIO setup complete - Pin 18 ready
+2025-08-29 08:13:40,629 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-08-29 08:13:40,629 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-08-29 08:13:40,629 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-08-29 08:13:45,724 - INFO - ? FIRST DETECTION: 15 device(s) found
+2025-08-29 08:13:45,725 - INFO -    Device: Unknown (00:6D:D0:2A:36:DB) - -66dBm
+2025-08-29 08:13:45,726 - INFO -    Device: Unknown (0C:B1:98:19:EC:AF) - -70dBm
+2025-08-29 08:13:45,726 - INFO -    Device: Unknown (54:B1:75:E5:1E:56) - -86dBm
+2025-08-29 08:13:45,729 - INFO -    Device: Unknown (63:BB:03:E4:7C:B2) - -69dBm
+2025-08-29 08:13:45,729 - INFO -    Device: Unknown (52:27:76:22:0A:B1) - -71dBm
+2025-08-29 08:13:45,729 - INFO -    Device: Unknown (6A:6C:4C:C1:86:0A) - -67dBm
+2025-08-29 08:13:45,730 - INFO -    Device: Unknown (2C:E9:F8:97:C4:F2) - -69dBm
+2025-08-29 08:13:45,730 - INFO -    Device: Unknown (E9:0A:D1:75:48:2C) - -84dBm
+2025-08-29 08:13:45,730 - INFO -    Device: LE-Bose Flex SoundLink (46:02:E4:E6:8E:4C) - -53dBm
+2025-08-29 08:13:45,731 - INFO -    Device: BF405 (F2:13:EE:03:FC:04) - -78dBm
+2025-08-29 08:13:45,731 - INFO -    Device: Unknown (D2:45:45:AA:7E:4D) - -74dBm
+2025-08-29 08:13:45,732 - INFO -    Device: Unknown (F7:8D:53:8E:9D:6E) - -70dBm
+2025-08-29 08:13:45,732 - INFO -    Device: Unknown (7F:D4:C8:D6:6A:F9) - -94dBm
+2025-08-29 08:13:45,732 - INFO -    Device: Unknown (D7:E2:1F:AD:C7:87) - -86dBm
+2025-08-29 08:13:45,733 - INFO -    Device: Unknown (4E:98:B9:D0:80:AE) - -85dBm
+2025-08-29 08:13:45,733 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-08-29 08:13:53,769 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-08-29 08:14:01,794 - INFO - ??  Devices present for 16.1s (trigger at 45s)
+2025-08-29 08:14:09,830 - INFO - ??  Devices present for 24.1s (trigger at 45s)
+2025-08-29 08:14:17,860 - INFO - ??  Devices present for 32.1s (trigger at 45s)
+2025-08-29 08:14:25,893 - INFO - ??  Devices present for 40.2s (trigger at 45s)
+2025-08-29 08:14:33,940 - INFO - ??  Devices present for 48.2s (trigger at 45s)
+2025-08-29 08:14:33,941 - WARNING - ? ALARM TRIGGERED! 15 device(s) detected for 45+ seconds
+2025-08-29 08:14:38,095 - INFO - ? Email alert sent!
+2025-08-29 08:14:41,839 - INFO - ? Voice call sent to 0409991376
+2025-08-29 08:14:41,839 - INFO - ? Voice alerts completed: 1 calls sent
+2025-08-29 08:14:45,745 - INFO - ? Additional email sent to a.darr@hotmail.com
+2025-08-29 08:14:49,400 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
+2025-08-29 08:14:49,401 - INFO - ? Additional emails completed: 2 emails sent
+2025-08-29 08:14:49,839 - INFO - Home base notified successfully
+2025-08-29 08:29:57,243 - INFO - Received shutdown signal...
+2025-08-29 08:29:57,243 - INFO - ? Shutting down Remote Site IDS...
+2025-08-29 08:29:57,243 - INFO - Alarm stopped
+2025-08-29 08:29:57,244 - INFO - Shutdown complete

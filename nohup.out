@@ -109,3 +109,13 @@
 2025-08-28T21:21:09Z INF Registered tunnel connection connIndex=2 connection=a3713bb3-edf0-4a66-8ab6-f6ab36949bb9 event=0 ip=198.41.200.233 location=syd05 protocol=quic
 2025-08-28T21:21:10Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=3 event=0 ip=198.41.192.167
 2025-08-28T21:21:10Z INF Registered tunnel connection connIndex=3 connection=6a3d0bdf-6eac-4756-8bb0-fa115d89364b event=0 ip=198.41.192.167 location=cbr01 protocol=quic
+2025-08-28T21:52:24Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp [::1]:8080: connect: connection refused" connIndex=2 event=1 ingressRule=0 originService=http://localhost:8080
+2025-08-28T21:52:24Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp [::1]:8080: connect: connection refused" connIndex=2 dest=https://device002.securecaller.online/ event=0 ip=198.41.200.233 type=http
+2025-08-28T21:58:15Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8080
+2025-08-28T21:58:15Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=https://device002.securecaller.online/ event=0 ip=198.41.200.13 type=http
+2025-08-28T21:58:23Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=2 event=1 ingressRule=0 originService=http://localhost:8080
+2025-08-28T21:58:23Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=2 dest=https://device002.securecaller.online/ event=0 ip=198.41.200.233 type=http
+2025-08-28T21:59:00Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8080
+2025-08-28T21:59:00Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=https://device002.securecaller.online/ event=0 ip=198.41.200.13 type=http
+2025-08-28T22:00:40Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8080
+2025-08-28T22:00:40Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=https://device002.securecaller.online/ event=0 ip=198.41.200.13 type=http

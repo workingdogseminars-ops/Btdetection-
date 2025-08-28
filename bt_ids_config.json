@@ -1,0 +1,14 @@
+{
+  "learning_duration": 120,
+  "scan_duration": 10,
+  "scan_interval": 5,
+  "trigger_threshold": 30,
+  "confidence_threshold": 3,
+  "signal_threshold": -80,
+  "relay_pin": 18,
+  "relay_active_high": true,
+  "alarm_duration": 300,
+  "log_file": "detections.csv",
+  "baseline_file": "baseline_devices.json",
+  "auto_learn_quiet_time": 1800
+}
