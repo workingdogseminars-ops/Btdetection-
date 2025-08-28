@@ -2748,3 +2748,187 @@
 2025-08-28 13:49:02,646 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
 2025-08-28 13:49:02,646 - INFO - ? Additional emails completed: 2 emails sent
 2025-08-28 13:49:03,128 - INFO - Home base notified successfully
+2025-08-29 06:27:29,206 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-08-29 06:27:29,220 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-08-29 06:27:29,224 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-08-29 06:27:29,225 - INFO - GPIO setup complete - Pin 18 ready
+2025-08-29 06:27:29,225 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-08-29 06:27:29,225 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-08-29 06:27:29,225 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-08-29 06:27:34,808 - INFO - ? FIRST DETECTION: 15 device(s) found
+2025-08-29 06:27:34,809 - INFO -    Device: Unknown (0B:B4:E8:93:56:9A) - -68dBm
+2025-08-29 06:27:34,809 - INFO -    Device: Unknown (2E:43:76:9A:E2:6D) - -55dBm
+2025-08-29 06:27:34,810 - INFO -    Device: Unknown (1A:09:C1:4E:A9:4C) - -49dBm
+2025-08-29 06:27:34,810 - INFO -    Device: Unknown (D2:45:45:AA:7E:4D) - -60dBm
+2025-08-29 06:27:34,810 - INFO -    Device: Unknown (53:65:24:F1:13:4C) - -73dBm
+2025-08-29 06:27:34,810 - INFO -    Device: LE-Bose Flex SoundLink (71:9C:77:E6:68:ED) - -34dBm
+2025-08-29 06:27:34,810 - INFO -    Device: Unknown (F7:8D:53:8E:9D:6E) - -84dBm
+2025-08-29 06:27:34,810 - INFO -    Device: Unknown (7B:E2:4A:BF:71:E3) - -70dBm
+2025-08-29 06:27:34,810 - INFO -    Device: BF405 (F2:13:EE:03:FC:04) - -62dBm
+2025-08-29 06:27:34,810 - INFO -    Device: Unknown (52:BD:74:C4:F9:43) - -71dBm
+2025-08-29 06:27:34,810 - INFO -    Device: Unknown (72:F5:8C:5A:D8:75) - -55dBm
+2025-08-29 06:27:34,811 - INFO -    Device: Unknown (D4:53:EA:26:04:0B) - -70dBm
+2025-08-29 06:27:34,811 - INFO -    Device: Unknown (F8:DE:09:50:12:1E) - -81dBm
+2025-08-29 06:27:34,811 - INFO -    Device: Unknown (FD:00:D8:AF:B6:3F) - -68dBm
+2025-08-29 06:27:34,811 - INFO -    Device: Unknown (60:A3:60:5E:15:DB) - -71dBm
+2025-08-29 06:27:34,811 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-08-29 06:27:42,839 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-08-29 06:27:51,032 - INFO - ??  Devices present for 16.2s (trigger at 45s)
+2025-08-29 06:29:06,781 - INFO - ??  Devices present for 92.0s (trigger at 45s)
+2025-08-29 06:29:06,782 - WARNING - ? ALARM TRIGGERED! 14 device(s) detected for 45+ seconds
+2025-08-29 06:29:10,955 - INFO - ? Email alert sent!
+2025-08-29 06:29:14,526 - INFO - ? Voice call sent to 0409991376
+2025-08-29 06:29:14,527 - INFO - ? Voice alerts completed: 1 calls sent
+2025-08-29 06:29:18,283 - INFO - ? Additional email sent to a.darr@hotmail.com
+2025-08-29 06:29:21,958 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
+2025-08-29 06:29:21,958 - INFO - ? Additional emails completed: 2 emails sent
+2025-08-29 06:29:22,454 - INFO - Home base notified successfully
+2025-08-29 06:37:08,198 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-08-29 06:37:08,213 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-08-29 06:37:08,218 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-08-29 06:37:08,218 - INFO - GPIO setup complete - Pin 18 ready
+2025-08-29 06:37:08,219 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-08-29 06:37:08,219 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-08-29 06:37:08,219 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-08-29 06:37:13,733 - INFO - ? FIRST DETECTION: 15 device(s) found
+2025-08-29 06:37:13,736 - INFO -    Device: Unknown (2E:43:76:9A:E2:6D) - -73dBm
+2025-08-29 06:37:13,736 - INFO -    Device: Unknown (61:4D:5E:58:93:1B) - -74dBm
+2025-08-29 06:37:13,736 - INFO -    Device: Unknown (6B:8A:E5:44:56:66) - -70dBm
+2025-08-29 06:37:13,737 - INFO -    Device: Unknown (58:AD:49:22:E5:E9) - -69dBm
+2025-08-29 06:37:13,737 - INFO -    Device: Unknown (3F:CA:5C:BA:90:1D) - -78dBm
+2025-08-29 06:37:13,737 - INFO -    Device: Unknown (27:9E:A4:0E:01:47) - -73dBm
+2025-08-29 06:37:13,737 - INFO -    Device: LE-Bose Flex SoundLink (67:6A:D2:9F:A6:35) - -57dBm
+2025-08-29 06:37:13,737 - INFO -    Device: Unknown (D2:45:45:AA:7E:4D) - -67dBm
+2025-08-29 06:37:13,737 - INFO -    Device: BF405 (F2:13:EE:03:FC:04) - -77dBm
+2025-08-29 06:37:13,737 - INFO -    Device: Unknown (F7:8D:53:8E:9D:6E) - -69dBm
+2025-08-29 06:37:13,737 - INFO -    Device: Unknown (58:06:96:C9:92:DA) - -85dBm
+2025-08-29 06:37:13,738 - INFO -    Device: Unknown (D1:71:B7:6B:1D:B4) - -94dBm
+2025-08-29 06:37:13,738 - INFO -    Device: Unknown (ED:88:A3:9A:83:66) - -83dBm
+2025-08-29 06:37:13,738 - INFO -    Device: Unknown (62:08:CC:EC:9B:C5) - -75dBm
+2025-08-29 06:37:13,738 - INFO -    Device: Unknown (6F:CD:FA:34:67:5A) - -84dBm
+2025-08-29 06:37:13,738 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-08-29 06:37:21,767 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-08-29 06:37:29,790 - INFO - ??  Devices present for 16.1s (trigger at 45s)
+2025-08-29 06:38:29,377 - INFO - ??  Devices present for 75.6s (trigger at 45s)
+2025-08-29 06:38:29,378 - WARNING - ? ALARM TRIGGERED! 12 device(s) detected for 45+ seconds
+2025-08-29 06:38:33,919 - INFO - ? Email alert sent!
+2025-08-29 06:38:37,725 - INFO - ? Voice call sent to 0409991376
+2025-08-29 06:38:37,726 - INFO - ? Voice alerts completed: 1 calls sent
+2025-08-29 06:38:42,010 - INFO - ? Additional email sent to a.darr@hotmail.com
+2025-08-29 06:38:45,940 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
+2025-08-29 06:38:45,940 - INFO - ? Additional emails completed: 2 emails sent
+2025-08-29 06:38:46,466 - INFO - Home base notified successfully
+2025-08-29 06:39:02,285 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-08-29 06:39:02,298 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-08-29 06:39:02,302 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-08-29 06:39:02,303 - INFO - GPIO setup complete - Pin 18 ready
+2025-08-29 06:39:02,303 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-08-29 06:39:02,304 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-08-29 06:39:02,304 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-08-29 06:39:07,844 - INFO - ? FIRST DETECTION: 13 device(s) found
+2025-08-29 06:39:07,845 - INFO -    Device: Unknown (58:AD:49:22:E5:E9) - -74dBm
+2025-08-29 06:39:07,846 - INFO -    Device: Unknown (1D:44:B5:D4:9D:F9) - -67dBm
+2025-08-29 06:39:07,846 - INFO -    Device: LE-Bose Flex SoundLink (67:6A:D2:9F:A6:35) - -43dBm
+2025-08-29 06:39:07,846 - INFO -    Device: Unknown (61:4D:5E:58:93:1B) - -71dBm
+2025-08-29 06:39:07,846 - INFO -    Device: Unknown (3F:CA:5C:BA:90:1D) - -71dBm
+2025-08-29 06:39:07,847 - INFO -    Device: Unknown (6B:8A:E5:44:56:66) - -68dBm
+2025-08-29 06:39:07,847 - INFO -    Device: Unknown (CE:ED:66:92:34:E1) - -86dBm
+2025-08-29 06:39:07,847 - INFO -    Device: Unknown (17:A2:BE:B4:C8:F6) - -89dBm
+2025-08-29 06:39:07,848 - INFO -    Device: Unknown (52:66:87:93:FB:65) - -90dBm
+2025-08-29 06:39:07,848 - INFO -    Device: BF405 (F2:13:EE:03:FC:04) - -78dBm
+2025-08-29 06:39:07,849 - INFO -    Device: Unknown (D2:45:45:AA:7E:4D) - -68dBm
+2025-08-29 06:39:07,849 - INFO -    Device: Unknown (F7:8D:53:8E:9D:6E) - -70dBm
+2025-08-29 06:39:07,849 - INFO -    Device: Unknown (ED:88:A3:9A:83:66) - -94dBm
+2025-08-29 06:39:07,851 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-08-29 06:39:15,875 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-08-29 06:39:23,896 - INFO - ??  Devices present for 16.1s (trigger at 45s)
+2025-08-29 06:41:05,041 - INFO - ??  Devices present for 117.2s (trigger at 45s)
+2025-08-29 06:41:05,044 - WARNING - ? ALARM TRIGGERED! 14 device(s) detected for 45+ seconds
+2025-08-29 06:41:09,520 - INFO - ? Email alert sent!
+2025-08-29 06:41:13,211 - INFO - ? Voice call sent to 0409991376
+2025-08-29 06:41:13,211 - INFO - ? Voice alerts completed: 1 calls sent
+2025-08-29 06:41:17,568 - INFO - ? Additional email sent to a.darr@hotmail.com
+2025-08-29 06:41:21,221 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
+2025-08-29 06:41:21,221 - INFO - ? Additional emails completed: 2 emails sent
+2025-08-29 06:41:21,810 - INFO - Home base notified successfully
+2025-08-29 06:54:24,073 - INFO - Received shutdown signal...
+2025-08-29 06:54:24,075 - INFO - ? Shutting down Remote Site IDS...
+2025-08-29 06:54:24,075 - INFO - Alarm stopped
+2025-08-29 06:54:24,076 - INFO - Shutdown complete
+2025-08-29 06:54:30,812 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-08-29 06:54:30,822 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-08-29 06:54:30,827 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-08-29 06:54:30,827 - INFO - GPIO setup complete - Pin 18 ready
+2025-08-29 06:54:30,827 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-08-29 06:54:30,828 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-08-29 06:54:30,828 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-08-29 06:54:36,324 - INFO - ? FIRST DETECTION: 14 device(s) found
+2025-08-29 06:54:36,327 - INFO -    Device: Unknown (2C:D8:0C:DC:DD:E7) - -71dBm
+2025-08-29 06:54:36,328 - INFO -    Device: Unknown (62:8D:05:57:14:7D) - -69dBm
+2025-08-29 06:54:36,328 - INFO -    Device: Unknown (7D:00:58:58:BF:44) - -73dBm
+2025-08-29 06:54:36,328 - INFO -    Device: Unknown (15:12:34:15:03:E8) - -69dBm
+2025-08-29 06:54:36,328 - INFO -    Device: Unknown (47:F2:1E:DF:12:0E) - -70dBm
+2025-08-29 06:54:36,328 - INFO -    Device: LE-Bose Flex SoundLink (63:93:29:EA:73:E7) - -46dBm
+2025-08-29 06:54:36,329 - INFO -    Device: Unknown (C8:97:C5:E0:63:6A) - -84dBm
+2025-08-29 06:54:36,329 - INFO -    Device: Unknown (F7:4F:13:D6:1F:06) - -91dBm
+2025-08-29 06:54:36,329 - INFO -    Device: Unknown (D2:45:45:AA:7E:4D) - -74dBm
+2025-08-29 06:54:36,329 - INFO -    Device: Unknown (78:CA:8E:7B:D4:C8) - -88dBm
+2025-08-29 06:54:36,329 - INFO -    Device: Unknown (F7:8D:53:8E:9D:6E) - -69dBm
+2025-08-29 06:54:36,330 - INFO -    Device: BF405 (F2:13:EE:03:FC:04) - -77dBm
+2025-08-29 06:54:36,330 - INFO -    Device: Unknown (39:48:8E:65:D1:25) - -90dBm
+2025-08-29 06:54:36,330 - INFO -    Device: Unknown (C4:EB:18:50:70:F9) - -89dBm
+2025-08-29 06:54:36,330 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-08-29 06:54:44,355 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-08-29 06:54:53,019 - INFO - ??  Devices present for 16.7s (trigger at 45s)
+2025-08-29 06:55:13,359 - INFO - ??  Devices present for 37.0s (trigger at 45s)
+2025-08-29 06:55:21,380 - INFO - ??  Devices present for 45.1s (trigger at 45s)
+2025-08-29 06:55:21,384 - WARNING - ? ALARM TRIGGERED! 13 device(s) detected for 45+ seconds
+2025-08-29 06:55:25,426 - INFO - ? Email alert sent!
+2025-08-29 06:55:29,110 - INFO - ? Voice call sent to 0409991376
+2025-08-29 06:55:29,111 - INFO - ? Voice alerts completed: 1 calls sent
+2025-08-29 06:55:32,744 - INFO - ? Additional email sent to a.darr@hotmail.com
+2025-08-29 06:55:37,039 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
+2025-08-29 06:55:37,039 - INFO - ? Additional emails completed: 2 emails sent
+2025-08-29 06:55:37,600 - INFO - Home base notified successfully
+2025-08-29 07:12:22,357 - INFO - Received shutdown signal...
+2025-08-29 07:12:22,357 - INFO - ? Shutting down Remote Site IDS...
+2025-08-29 07:12:22,358 - INFO - Alarm stopped
+2025-08-29 07:12:22,358 - INFO - Shutdown complete
+2025-08-29 07:12:31,933 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-08-29 07:12:31,935 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-08-29 07:12:31,939 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-08-29 07:12:31,940 - INFO - GPIO setup complete - Pin 18 ready
+2025-08-29 07:12:31,940 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-08-29 07:12:31,940 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-08-29 07:12:31,940 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-08-29 07:12:37,088 - INFO - ? FIRST DETECTION: 15 device(s) found
+2025-08-29 07:12:37,091 - INFO -    Device: Unknown (47:F2:1E:DF:12:0E) - -68dBm
+2025-08-29 07:12:37,091 - INFO -    Device: Unknown (2C:64:1B:F3:9C:4A) - -68dBm
+2025-08-29 07:12:37,092 - INFO -    Device: Unknown (1A:1B:BE:79:56:91) - -66dBm
+2025-08-29 07:12:37,092 - INFO -    Device: Unknown (5A:79:2C:78:DF:8B) - -67dBm
+2025-08-29 07:12:37,093 - INFO -    Device: Unknown (63:24:E5:99:68:7C) - -85dBm
+2025-08-29 07:12:37,094 - INFO -    Device: Unknown (16:F5:49:23:80:15) - -66dBm
+2025-08-29 07:12:37,094 - INFO -    Device: BF405 (F2:13:EE:03:FC:04) - -79dBm
+2025-08-29 07:12:37,094 - INFO -    Device: Unknown (60:62:6F:E2:26:0C) - -66dBm
+2025-08-29 07:12:37,095 - INFO -    Device: LE-Bose Flex SoundLink (63:93:29:EA:73:E7) - -46dBm
+2025-08-29 07:12:37,095 - INFO -    Device: Unknown (D2:45:45:AA:7E:4D) - -74dBm
+2025-08-29 07:12:37,095 - INFO -    Device: Unknown (F7:8D:53:8E:9D:6E) - -79dBm
+2025-08-29 07:12:37,095 - INFO -    Device: Unknown (DD:64:5B:E7:BE:A6) - -82dBm
+2025-08-29 07:12:37,096 - INFO -    Device: Unknown (EB:70:44:AD:51:72) - -84dBm
+2025-08-29 07:12:37,096 - INFO -    Device: Unknown (CD:1A:26:D1:A7:E8) - -87dBm
+2025-08-29 07:12:37,096 - INFO -    Device: Unknown (7D:7D:CB:20:6F:45) - -83dBm
+2025-08-29 07:12:37,096 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-08-29 07:12:45,129 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-08-29 07:12:53,179 - INFO - ??  Devices present for 16.1s (trigger at 45s)
+2025-08-29 07:13:01,210 - INFO - ??  Devices present for 24.1s (trigger at 45s)
+2025-08-29 07:13:09,249 - INFO - ??  Devices present for 32.2s (trigger at 45s)
+2025-08-29 07:13:17,278 - INFO - ??  Devices present for 40.2s (trigger at 45s)
+2025-08-29 07:13:25,312 - INFO - ??  Devices present for 48.2s (trigger at 45s)
+2025-08-29 07:13:25,313 - WARNING - ? ALARM TRIGGERED! 13 device(s) detected for 45+ seconds
+2025-08-29 07:13:30,023 - INFO - ? Email alert sent!
+2025-08-29 07:13:33,738 - INFO - ? Voice call sent to 0409991376
+2025-08-29 07:13:33,739 - INFO - ? Voice alerts completed: 1 calls sent
+2025-08-29 07:13:37,580 - INFO - ? Additional email sent to a.darr@hotmail.com
+2025-08-29 07:13:41,265 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
+2025-08-29 07:13:41,266 - INFO - ? Additional emails completed: 2 emails sent
+2025-08-29 07:13:41,675 - INFO - Home base notified successfully
