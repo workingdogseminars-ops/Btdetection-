@@ -1,6 +1,8 @@
 {
-  "armed": false,
-  "schedule_enabled": false,
+  "armed": true,
+  "schedule_enabled": true,
+  "manual_override": true,
+  "override_expires": "2025-08-30T18:00:00",
   "schedule": {
     "monday": {
       "enabled": true,
@@ -19,25 +21,26 @@
     },
     "thursday": {
       "enabled": true,
-      "start": "18:00",
+      "start": "18:10",
       "end": "06:00"
     },
     "friday": {
       "enabled": true,
-      "start": "18:00",
-      "end": "06:00"
+      "start": "17:44",
+      "end": "18:00"
     },
     "saturday": {
-      "enabled": false,
+      "enabled": true,
       "start": "18:00",
       "end": "06:00"
     },
     "sunday": {
-      "enabled": false,
+      "enabled": true,
       "start": "18:00",
       "end": "06:00"
     }
   },
-  "trigger_threshold": 45,
-  "scan_interval": 3
+  "trigger_threshold": 20,
+  "scan_interval": 3,
+  "next_transition": "2025-08-30T18:00:00"
 }
