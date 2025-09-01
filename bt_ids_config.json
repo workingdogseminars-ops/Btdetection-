@@ -1,9 +1,9 @@
 {
-  "learning_duration": 120,
+  "learning_duration": 20,
   "scan_duration": 10,
   "scan_interval": 5,
-  "trigger_threshold": 30,
-  "confidence_threshold": 3,
+  "trigger_threshold": 5,
+  "confidence_threshold": 1,
   "signal_threshold": -80,
   "relay_pin": 18,
   "relay_active_high": true,

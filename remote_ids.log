@@ -3054,3 +3054,198 @@
 2025-08-29 08:29:57,243 - INFO - ? Shutting down Remote Site IDS...
 2025-08-29 08:29:57,243 - INFO - Alarm stopped
 2025-08-29 08:29:57,244 - INFO - Shutdown complete
+2025-09-01 12:38:34,341 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-09-01 12:38:34,344 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-09-01 12:38:34,348 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 12:38:34,349 - INFO - GPIO setup complete - Pin 18 ready
+2025-09-01 12:38:34,350 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-09-01 12:38:34,350 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-09-01 12:38:34,351 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-09-01 12:38:39,439 - INFO - ? FIRST DETECTION: 10 device(s) found
+2025-09-01 12:38:39,443 - INFO -    Device: Unknown (08:DE:8D:C6:20:C9) - -65dBm
+2025-09-01 12:38:39,444 - INFO -    Device: LE-Bose Flex SoundLink (5D:67:8E:97:AE:CE) - -80dBm
+2025-09-01 12:38:39,445 - INFO -    Device: Unknown (5B:ED:65:88:E1:7A) - -49dBm
+2025-09-01 12:38:39,446 - INFO -    Device: Unknown (3D:1E:13:B4:A6:EC) - -48dBm
+2025-09-01 12:38:39,447 - INFO -    Device: Unknown (73:F8:19:1E:52:87) - -48dBm
+2025-09-01 12:38:39,448 - INFO -    Device: Unknown (5A:2A:C6:92:0A:01) - -63dBm
+2025-09-01 12:38:39,449 - INFO -    Device: Unknown (16:DD:2B:2E:B4:16) - -59dBm
+2025-09-01 12:38:39,450 - INFO -    Device: Unknown (46:AC:40:79:57:6D) - -52dBm
+2025-09-01 12:38:39,451 - INFO -    Device: Unknown (C3:75:E7:16:FB:27) - -91dBm
+2025-09-01 12:38:39,452 - INFO -    Device: Unknown (F0:7B:1D:99:12:7D) - -33dBm
+2025-09-01 12:38:39,452 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-09-01 12:38:47,484 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-09-01 12:38:55,518 - INFO - ??  Devices present for 16.1s (trigger at 45s)
+2025-09-01 12:39:03,551 - INFO - ??  Devices present for 24.1s (trigger at 45s)
+2025-09-01 12:39:11,585 - INFO - ??  Devices present for 32.1s (trigger at 45s)
+2025-09-01 12:39:19,624 - INFO - ??  Devices present for 40.2s (trigger at 45s)
+2025-09-01 12:39:27,659 - INFO - ??  Devices present for 48.2s (trigger at 45s)
+2025-09-01 12:39:27,660 - WARNING - ? ALARM TRIGGERED! 8 device(s) detected for 45+ seconds
+2025-09-01 12:39:27,728 - ERROR - ? Email failed: [Errno 2] No such file or directory: '/home/andrewdarr/intrusion/email_config.json'
+2025-09-01 12:39:27,728 - ERROR - ? Voice alert system failed: [Errno 2] No such file or directory: '/home/andrewdarr/intrusion/email_config.json'
+2025-09-01 12:39:28,188 - ERROR - Failed to notify home base: HTTPSConnectionPool(host='homebasedcab86.securecaller.online', port=443): Max retries exceeded with url: /alarm (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'homebasedcab86.securecaller.online'. (_ssl.c:992)")))
+2025-09-01 12:39:28,188 - ERROR - Email failed: name 'success_count' is not defined
+2025-09-01 12:40:35,440 - INFO - Received shutdown signal...
+2025-09-01 12:40:35,440 - INFO - ? Shutting down Remote Site IDS...
+2025-09-01 12:40:35,441 - INFO - Alarm stopped
+2025-09-01 12:40:35,441 - INFO - Shutdown complete
+2025-09-01 12:41:38,640 - INFO - ? Using built-in Bluetooth (hci0) for detection
+2025-09-01 12:41:38,642 - INFO - ? Ignoring local device: hci0 (88:A2:9E:11:07:1B)
+2025-09-01 12:41:38,646 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 12:41:38,647 - INFO - GPIO setup complete - Pin 18 ready
+2025-09-01 12:41:38,648 - INFO - ??  Remote Site Bluetooth IDS Started
+2025-09-01 12:41:38,648 - INFO - ??  Configuration: 45s trigger, 0s alarm duration
+2025-09-01 12:41:38,648 - INFO - ? Monitoring for ANY Bluetooth devices...
+2025-09-01 12:41:43,739 - INFO - ? FIRST DETECTION: 10 device(s) found
+2025-09-01 12:41:43,743 - INFO -    Device: Unknown (F0:7B:1D:99:12:7D) - -33dBm
+2025-09-01 12:41:43,744 - INFO -    Device: Unknown (5B:ED:65:88:E1:7A) - -47dBm
+2025-09-01 12:41:43,745 - INFO -    Device: Unknown (3D:1E:13:B4:A6:EC) - -50dBm
+2025-09-01 12:41:43,746 - INFO -    Device: Unknown (73:F8:19:1E:52:87) - -47dBm
+2025-09-01 12:41:43,746 - INFO -    Device: Unknown (46:AC:40:79:57:6D) - -53dBm
+2025-09-01 12:41:43,747 - INFO -    Device: Unknown (08:DE:8D:C6:20:C9) - -65dBm
+2025-09-01 12:41:43,748 - INFO -    Device: Unknown (50:40:8B:33:8C:8A) - -76dBm
+2025-09-01 12:41:43,749 - INFO -    Device: Unknown (2B:A5:1D:D0:AF:B8) - -81dBm
+2025-09-01 12:41:43,749 - INFO -    Device: LE-Bose Flex SoundLink (5D:67:8E:97:AE:CE) - -70dBm
+2025-09-01 12:41:43,750 - INFO -    Device: Unknown (40:4B:B1:2E:8D:33) - -70dBm
+2025-09-01 12:41:43,751 - INFO - ??  Devices present for 0.0s (trigger at 45s)
+2025-09-01 12:41:51,782 - INFO - ??  Devices present for 8.0s (trigger at 45s)
+2025-09-01 12:41:59,818 - INFO - ??  Devices present for 16.1s (trigger at 45s)
+2025-09-01 12:42:07,851 - INFO - ??  Devices present for 24.1s (trigger at 45s)
+2025-09-01 12:42:15,881 - INFO - ??  Devices present for 32.1s (trigger at 45s)
+2025-09-01 12:42:23,916 - INFO - ??  Devices present for 40.2s (trigger at 45s)
+2025-09-01 12:42:31,955 - INFO - ??  Devices present for 48.2s (trigger at 45s)
+2025-09-01 12:42:31,956 - WARNING - ? ALARM TRIGGERED! 10 device(s) detected for 45+ seconds
+2025-09-01 12:42:36,155 - INFO - ? Email alert sent!
+2025-09-01 12:42:40,001 - INFO - ? Voice call sent to 0409991376
+2025-09-01 12:42:40,001 - INFO - ? Voice alerts completed: 1 calls sent
+2025-09-01 12:42:43,723 - INFO - ? Additional email sent to a.darr@hotmail.com
+2025-09-01 12:42:47,427 - INFO - ? Additional email sent to rebelandandrew2@gmail.com
+2025-09-01 12:42:47,428 - INFO - ? Additional emails completed: 2 emails sent
+2025-09-01 12:42:47,767 - ERROR - Failed to notify home base: HTTPSConnectionPool(host='homebasedcab86.securecaller.online', port=443): Max retries exceeded with url: /alarm (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'homebasedcab86.securecaller.online'. (_ssl.c:992)")))
+2025-09-01 12:42:47,768 - ERROR - Email failed: name 'success_count' is not defined
+2025-09-01 12:49:08,636 - INFO - Received shutdown signal...
+2025-09-01 12:49:08,636 - INFO - ? Shutting down Remote Site IDS...
+2025-09-01 12:49:08,636 - INFO - Alarm stopped
+2025-09-01 12:49:08,637 - INFO - Shutdown complete
+2025-09-01 14:43:08,336 - INFO - GPIO setup complete - Pin 18 ready
+2025-09-01 14:43:08,337 - INFO - 🔥  Remote Site Bluetooth IDS Started
+2025-09-01 14:43:08,337 - INFO - ⚙️  Configuration: 45s trigger, 0s alarm duration
+2025-09-01 14:43:08,337 - INFO - 👀 Monitoring for Bluetooth devices...
+2025-09-01 14:43:13,435 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:43:13,436 - INFO - 🔍 FIRST DETECTION: 10 device(s) found
+2025-09-01 14:43:13,439 - INFO -    Device: Unknown (2E:39:07:D0:43:D5) - -100dBm
+2025-09-01 14:43:13,441 - INFO -    Device: Unknown (7F:4E:7C:3A:00:22) - -100dBm
+2025-09-01 14:43:13,441 - INFO -    Device: Unknown (4B:7B:AF:31:36:71) - -100dBm
+2025-09-01 14:43:13,442 - INFO -    Device: Unknown (3E:86:7B:97:E4:F9) - -100dBm
+2025-09-01 14:43:13,443 - INFO -    Device: Unknown (64:CF:8C:AE:76:A3) - -100dBm
+2025-09-01 14:43:13,444 - INFO -    Device: Unknown (6E:C2:25:31:F8:D4) - -100dBm
+2025-09-01 14:43:13,445 - INFO -    Device: Unknown (1C:9B:00:54:AA:B9) - -100dBm
+2025-09-01 14:43:13,446 - INFO -    Device: Unknown (5C:10:9C:9F:56:D1) - -100dBm
+2025-09-01 14:43:13,447 - INFO -    Device: Unknown (F0:7B:1D:99:12:7D) - -100dBm
+2025-09-01 14:43:13,448 - INFO -    Device: Unknown (C3:75:E7:16:FB:27) - -100dBm
+2025-09-01 14:43:13,448 - INFO - ⏱️  Devices present for 0.0s (trigger at 45s)
+2025-09-01 14:43:26,497 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:43:26,498 - INFO - ⏱️  Devices present for 13.1s (trigger at 45s)
+2025-09-01 14:43:39,546 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:43:39,547 - INFO - ⏱️  Devices present for 26.1s (trigger at 45s)
+2025-09-01 14:43:52,581 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:43:52,582 - INFO - ⏱️  Devices present for 39.1s (trigger at 45s)
+2025-09-01 14:44:05,628 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:44:05,628 - INFO - ⏱️  Devices present for 52.2s (trigger at 45s)
+2025-09-01 14:44:05,629 - WARNING - 🚨 ALARM TRIGGERED! 11 device(s) detected for 45+ seconds
+2025-09-01 14:44:09,932 - INFO - 📧 Email alert sent!
+2025-09-01 14:44:13,869 - INFO - 📞 Voice call sent to 0409991376
+2025-09-01 14:44:13,870 - INFO - 📞 Voice alerts completed: 1 calls sent
+2025-09-01 14:44:17,880 - INFO - 📧 Additional email sent to a.darr@hotmail.com
+2025-09-01 14:44:21,694 - INFO - 📧 Additional email sent to rebelandandrew2@gmail.com
+2025-09-01 14:44:21,695 - INFO - 📧 Additional emails completed: 2 emails sent
+2025-09-01 14:44:34,735 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:44:47,764 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:45:00,801 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:45:13,845 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:45:26,889 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:45:39,928 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:45:52,962 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:46:06,011 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:46:19,038 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:46:27,045 - INFO - 🔓 System disarmed - clearing detection state
+2025-09-01 14:46:27,045 - INFO - 🔇 Alarm stopped
+2025-09-01 14:46:40,080 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:46:40,081 - INFO - 🔍 FIRST DETECTION: 10 device(s) found
+2025-09-01 14:46:40,082 - INFO -    Device: Unknown (2E:39:07:D0:43:D5) - -100dBm
+2025-09-01 14:46:40,082 - INFO -    Device: Unknown (4B:7B:AF:31:36:71) - -100dBm
+2025-09-01 14:46:40,082 - INFO -    Device: Unknown (7F:4E:7C:3A:00:22) - -100dBm
+2025-09-01 14:46:40,083 - INFO -    Device: Unknown (3E:86:7B:97:E4:F9) - -100dBm
+2025-09-01 14:46:40,083 - INFO -    Device: Unknown (65:77:62:FC:82:62) - -100dBm
+2025-09-01 14:46:40,084 - INFO -    Device: Unknown (6E:C2:25:31:F8:D4) - -100dBm
+2025-09-01 14:46:40,084 - INFO -    Device: Unknown (5C:10:9C:9F:56:D1) - -100dBm
+2025-09-01 14:46:40,084 - INFO -    Device: Unknown (0E:1E:31:25:DD:6C) - -100dBm
+2025-09-01 14:46:40,085 - INFO -    Device: Unknown (F0:7B:1D:99:12:7D) - -100dBm
+2025-09-01 14:46:40,085 - INFO -    Device: Unknown (C3:75:E7:16:FB:27) - -100dBm
+2025-09-01 14:46:40,085 - INFO - ⏱️  Devices present for 0.0s (trigger at 45s)
+2025-09-01 14:46:53,134 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:46:53,135 - INFO - ⏱️  Devices present for 13.1s (trigger at 45s)
+2025-09-01 14:47:06,168 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:47:06,169 - INFO - ⏱️  Devices present for 26.1s (trigger at 45s)
+2025-09-01 14:47:19,221 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:47:19,222 - INFO - ⏱️  Devices present for 39.1s (trigger at 45s)
+2025-09-01 14:47:32,260 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:47:32,261 - INFO - ⏱️  Devices present for 52.2s (trigger at 45s)
+2025-09-01 14:47:32,261 - WARNING - 🚨 ALARM TRIGGERED! 10 device(s) detected for 45+ seconds
+2025-09-01 14:47:36,076 - INFO - 📧 Email alert sent!
+2025-09-01 14:47:39,934 - INFO - 📞 Voice call sent to 0409991376
+2025-09-01 14:47:39,935 - INFO - 📞 Voice alerts completed: 1 calls sent
+2025-09-01 14:47:43,767 - INFO - 📧 Additional email sent to a.darr@hotmail.com
+2025-09-01 14:47:47,570 - INFO - 📧 Additional email sent to rebelandandrew2@gmail.com
+2025-09-01 14:47:47,571 - INFO - 📧 Additional emails completed: 2 emails sent
+2025-09-01 14:48:00,612 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:48:13,651 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:48:26,696 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:48:39,731 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:48:52,772 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:49:05,815 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:49:18,860 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:49:31,899 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:49:44,939 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:49:57,977 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:50:11,021 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:50:24,063 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:50:37,106 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:50:40,175 - INFO - Received shutdown signal...
+2025-09-01 14:50:40,175 - INFO - 🔥 Shutting down Remote Site IDS...
+2025-09-01 14:50:40,176 - INFO - 🔇 Alarm stopped
+2025-09-01 14:50:40,176 - INFO - Shutdown complete
+2025-09-01 14:51:33,780 - INFO - GPIO setup complete - Pin 18 ready
+2025-09-01 14:51:33,781 - INFO - 🔥  Remote Site Bluetooth IDS Started
+2025-09-01 14:51:33,781 - INFO - ⚙️  Configuration: 45s trigger, 0s alarm duration
+2025-09-01 14:51:33,781 - INFO - 👀 Monitoring for Bluetooth devices...
+2025-09-01 14:51:38,874 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:51:38,875 - INFO - 🔍 FIRST DETECTION: 10 device(s) found
+2025-09-01 14:51:38,876 - INFO -    Device: Unknown (4B:7B:AF:31:36:71) - -100dBm
+2025-09-01 14:51:38,876 - INFO -    Device: Unknown (7F:4E:7C:3A:00:22) - -100dBm
+2025-09-01 14:51:38,876 - INFO -    Device: Unknown (3E:86:7B:97:E4:F9) - -100dBm
+2025-09-01 14:51:38,876 - INFO -    Device: Unknown (F0:7B:1D:99:12:7D) - -100dBm
+2025-09-01 14:51:38,876 - INFO -    Device: Unknown (3A:1D:39:48:80:62) - -100dBm
+2025-09-01 14:51:38,877 - INFO -    Device: Unknown (6E:C2:25:31:F8:D4) - -100dBm
+2025-09-01 14:51:38,877 - INFO -    Device: Unknown (5C:10:9C:9F:56:D1) - -100dBm
+2025-09-01 14:51:38,877 - INFO -    Device: Unknown (50:7F:81:76:8C:49) - -100dBm
+2025-09-01 14:51:38,877 - INFO -    Device: Unknown (1F:83:87:69:DA:9E) - -100dBm
+2025-09-01 14:51:38,877 - INFO -    Device: Unknown (C3:75:E7:16:FB:27) - -100dBm
+2025-09-01 14:51:38,877 - INFO - ⏱️  Devices present for 0.0s (trigger at 45s)
+2025-09-01 14:51:51,921 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:51:51,922 - INFO - ⏱️  Devices present for 13.0s (trigger at 45s)
+2025-09-01 14:52:04,965 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:52:04,965 - INFO - ⏱️  Devices present for 26.1s (trigger at 45s)
+2025-09-01 14:52:18,010 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:52:18,010 - INFO - ⏱️  Devices present for 39.1s (trigger at 45s)
+2025-09-01 14:52:31,053 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:52:31,053 - INFO - ⏱️  Devices present for 52.2s (trigger at 45s)
+2025-09-01 14:52:31,054 - WARNING - 🚨 ALARM TRIGGERED! 10 device(s) detected for 45+ seconds
+2025-09-01 14:52:34,864 - INFO - 📧 Email alert sent!
+2025-09-01 14:52:38,730 - INFO - 📞 Voice call sent to 0409991376
+2025-09-01 14:52:38,731 - INFO - 📞 Voice alerts completed: 1 calls sent
+2025-09-01 14:52:42,545 - INFO - 📧 Additional email sent to a.darr@hotmail.com
+2025-09-01 14:52:46,351 - INFO - 📧 Additional email sent to rebelandandrew2@gmail.com
+2025-09-01 14:52:46,351 - INFO - 📧 Additional emails completed: 2 emails sent
+2025-09-01 14:52:59,391 - INFO - Pi's Bluetooth MAC: 88:A2:9E:11:07:1B (will be ignored)
+2025-09-01 14:53:07,399 - INFO - 🔓 System disarmed - clearing detection state
+2025-09-01 14:53:07,400 - INFO - 🔇 Alarm stopped

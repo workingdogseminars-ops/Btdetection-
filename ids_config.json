@@ -1,8 +1,8 @@
 {
-  "armed": true,
-  "schedule_enabled": true,
-  "manual_override": true,
-  "override_expires": "2025-08-30T18:00:00",
+  "armed": false,
+  "schedule_enabled": false,
+  "manual_override": false,
+  "override_expires": null,
   "schedule": {
     "monday": {
       "enabled": true,

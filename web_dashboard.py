@@ -189,7 +189,7 @@ class IDSController:
     def get_system_status(self):
         """Check if IDS is running"""
         try:
-            result = subprocess.run(['/usr/bin/pgrep', '-f', 'remote_site_with_email.py'], 
+            result = subprocess.run(['/usr/bin/pgrep', '-f', 'remote_site_with_email.py'],
                                   capture_output=True, text=True)
             running = len(result.stdout.strip()) > 0
             

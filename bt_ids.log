@@ -137,3 +137,61 @@
 2025-08-18 17:29:59,082 - INFO - Received shutdown signal...
 2025-08-18 17:29:59,083 - INFO - Shutting down Bluetooth IDS...
 2025-08-18 17:29:59,083 - INFO - Shutdown complete
+2025-09-01 12:32:28,170 - INFO - GPIO setup complete on pin 18
+2025-09-01 12:32:28,172 - INFO - Loaded 18 baseline devices
+2025-09-01 12:32:28,173 - INFO - Starting Bluetooth monitoring...
+2025-09-01 12:32:38,273 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:32:53,312 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:33:08,347 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:33:23,387 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:33:38,424 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:33:53,460 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:34:08,494 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:34:23,530 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:34:38,567 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:34:53,606 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:35:08,636 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:35:23,669 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:35:38,700 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:35:53,736 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:35:58,823 - INFO - Received shutdown signal...
+2025-09-01 12:35:58,824 - INFO - Shutting down Bluetooth IDS...
+2025-09-01 12:55:18,459 - INFO - GPIO setup complete on pin 18
+2025-09-01 12:55:18,460 - ERROR - Error loading baseline: 'list' object has no attribute 'get'
+2025-09-01 12:55:18,460 - INFO - Starting Bluetooth monitoring...
+2025-09-01 12:55:18,460 - INFO - Starting 20s baseline learning mode...
+2025-09-01 12:55:28,551 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:55:43,585 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:55:48,596 - INFO - Baseline devices saved
+2025-09-01 12:55:48,597 - INFO - Learning complete. 0 baseline devices saved
+2025-09-01 12:55:58,632 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:56:13,659 - ERROR - Scan error: 'str' object has no attribute 'address'
+2025-09-01 12:56:25,624 - INFO - Received shutdown signal...
+2025-09-01 12:56:25,625 - INFO - Shutting down Bluetooth IDS...
+2025-09-01 13:09:54,814 - INFO - GPIO setup complete on pin 18
+2025-09-01 13:09:54,815 - INFO - Loaded 0 baseline devices
+2025-09-01 13:09:54,815 - INFO - Starting Bluetooth monitoring...
+2025-09-01 13:09:54,815 - INFO - Starting 20s baseline learning mode...
+2025-09-01 13:10:04,908 - INFO - New device: Unknown (2B:DB:CC:7A:8E:17) - baseline
+2025-09-01 13:10:04,909 - INFO - New device: Unknown (6C:FD:43:1C:66:11) - baseline
+2025-09-01 13:10:04,909 - INFO - New device: Unknown (1D:B4:AF:C6:81:3E) - baseline
+2025-09-01 13:10:04,910 - INFO - New device: Unknown (7F:9B:0D:31:92:9D) - baseline
+2025-09-01 13:10:04,911 - INFO - New device: Unknown (25:78:F6:5B:07:C4) - baseline
+2025-09-01 13:10:04,912 - INFO - New device: Unknown (56:E1:24:69:1A:3D) - baseline
+2025-09-01 13:10:04,913 - INFO - New device: Unknown (61:B6:ED:E2:24:8D) - baseline
+2025-09-01 13:10:04,913 - INFO - New device: Unknown (41:6D:19:94:A5:C7) - baseline
+2025-09-01 13:10:04,914 - INFO - New device: Unknown (C3:75:E7:16:FB:27) - baseline
+2025-09-01 13:10:04,916 - INFO - New device: Unknown (F0:7B:1D:99:12:7D) - baseline
+2025-09-01 13:10:04,917 - INFO - New device: Unknown (55:88:12:C7:84:C7) - baseline
+2025-09-01 13:10:04,918 - INFO - New device: Unknown (11:91:1E:1E:B4:3E) - baseline
+2025-09-01 13:10:04,919 - INFO - New device: Unknown (42:D2:96:47:0C:73) - baseline
+2025-09-01 13:10:04,920 - INFO - New device: Unknown (62:E1:93:80:8B:E4) - baseline
+2025-09-01 13:10:19,943 - INFO - New device: Unknown (6D:59:30:64:D9:77) - baseline
+2025-09-01 13:10:19,945 - INFO - New device: Unknown (6F:F7:21:0D:0F:ED) - baseline
+2025-09-01 13:10:24,950 - ERROR - Monitoring loop error: 'ModernBluetoothIDS' object has no attribute 'get_device_pattern'
+2025-09-01 13:10:39,977 - ERROR - Monitoring loop error: 'ModernBluetoothIDS' object has no attribute 'is_device_suspicious'
+2025-09-01 13:10:55,007 - INFO - New device: Unknown (6A:8E:12:F2:E6:FC) - monitoring
+2025-09-01 13:10:55,008 - ERROR - Monitoring loop error: 'ModernBluetoothIDS' object has no attribute 'is_device_suspicious'
+2025-09-01 13:11:10,045 - ERROR - Monitoring loop error: 'ModernBluetoothIDS' object has no attribute 'is_device_suspicious'
+2025-09-01 13:11:24,306 - INFO - Received shutdown signal...
+2025-09-01 13:11:24,307 - INFO - Shutting down Bluetooth IDS...
