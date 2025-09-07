@@ -1,8 +1,0 @@
-{
-  "account_sid": "AC022dfc43d53faf914eecd27c4e075a75",
-  "auth_token": "f11f70610ef0c89affdcaf3c14831886", 
-  "twilio_phone": "+12704564997",
-  "your_phone": "+61 409 991 376",
-  "call_enabled": true,
-  "voice_message": "Security Alert! Intrusion detected at your property. Please check your system immediately."
-}

@@ -1,8 +1,0 @@
-{
-  "enabled": true,
-  "username": "YOUR_VOIPMS_USERNAME",
-  "api_password": "YOUR_API_PASSWORD",
-  "from_caller_id": "5551234567",
-  "to_number": "61409991376",
-  "voice_message": "Security Alert! Intrusion detected at your property. Please check your system immediately."
-}
