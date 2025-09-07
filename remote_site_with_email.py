@@ -68,13 +68,23 @@ class RemoteSiteIDS:
         return None
     
     def is_armed(self):
-        """Check if system is armed by reading ids_config.json"""
+        """Check if system is armed by querying VPS"""
         try:
-            with open("ids_config.json", "r") as f:
-                config = json.load(f)
-                return config.get("armed", False)
+            import requests
+            response = requests.get(
+                'https://admin.securecaller.online/api/status',
+                timeout=5
+            )
+            if response.status_code == 200:
+                data = response.json()
+                armed = data.get("armed", False)
+                self.logger.debug(f"VPS armed status: {armed}")
+                return armed
+            else:
+                self.logger.debug(f"VPS status check failed: {response.status_code}")
+                return False
         except Exception as e:
-            self.logger.debug(f"Could not read armed state: {e}")
+            self.logger.debug(f"Could not check VPS armed state: {e}")
             return False
     
     async def scan_devices(self):
@@ -221,19 +231,27 @@ Relay: ACTIVATED
             for phone in phone_numbers:
                 if phone.strip():
                     try:
-                        # Create email for ClickSend voice
-                        msg = EmailMessage()
-                        msg.set_content(message)
-                        msg["Subject"] = "Voice Alert"
-                        msg["From"] = email_config["sender_email"]
-                        msg["To"] = f"{phone.strip()}@voice.clicksend.com"
+                        # Convert to E.164 format for Telnyx
+                        import requests
+                        phone_formatted = phone.strip()
+                        if phone_formatted.startswith('0'):
+                            phone_formatted = '+61' + phone_formatted[1:]
+                        elif not phone_formatted.startswith('+'):
+                            phone_formatted = '+' + phone_formatted
                         
-                        # Send voice call
-                        server = smtplib.SMTP(email_config["smtp_server"], email_config["smtp_port"])
-                        server.starttls()
-                        server.login(email_config["sender_email"], email_config["sender_password"])
-                        server.send_message(msg)
-                        server.quit()
+                        # Call VPS Telnyx API
+                        response = requests.post(
+                            'https://admin.securecaller.online/api/make-call',
+                            json={
+                                'phone_numbers': [phone_formatted],
+                                'message': message,
+                                'device_id': 'btids001'
+                            },
+                            timeout=10
+                        )
+                        
+                        if response.status_code != 200:
+                            raise Exception(f"API returned {response.status_code}")
                         
                         self.logger.info(f"📞 Voice call sent to {phone}")
                         success_count += 1
